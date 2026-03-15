@@ -51,3 +51,15 @@ aside {
         }
     }
 }
+@media (max-width: 800px) {
+
+    #app{
+        display: flex;
+        overflow: auto;
+    }
+    
+    aside{
+        display: none;
+    }
+
+}
